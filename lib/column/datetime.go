@@ -20,12 +20,13 @@ package column
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/ch-go/proto"
 	"reflect"
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/timezone"
+	"github.com/ClickHouse/ch-go/proto"
+
+	"github.com/vk-rv/clickhouse-go/v2/lib/timezone"
 )
 
 var (

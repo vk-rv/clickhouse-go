@@ -20,14 +20,15 @@ package std
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"net/url"
 	"runtime"
 	"strconv"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/vk-rv/clickhouse-go/v2"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
 )
 
 func TestClientInfo(t *testing.T) {

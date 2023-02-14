@@ -22,16 +22,17 @@ import (
 	"crypto/tls"
 	"database/sql"
 	"fmt"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"strconv"
 	"testing"
 	"time"
 
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
+
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
-	_ "github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/vk-rv/clickhouse-go/v2"
+	_ "github.com/vk-rv/clickhouse-go/v2"
 )
 
 func TestStdConn(t *testing.T) {

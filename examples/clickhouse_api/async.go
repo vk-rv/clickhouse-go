@@ -20,7 +20,8 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
+
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
 )
 
 func AsyncInsert() error {

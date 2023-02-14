@@ -20,11 +20,12 @@ package tests
 import (
 	"context"
 	"crypto/rand"
-	"github.com/stretchr/testify/require"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 type BinFixedString struct {

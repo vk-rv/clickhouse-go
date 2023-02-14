@@ -20,11 +20,12 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"testing"
+
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func TestDecimal(t *testing.T) {

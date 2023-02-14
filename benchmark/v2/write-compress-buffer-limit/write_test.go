@@ -20,11 +20,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"log"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func bToMb(b uint64) uint64 {

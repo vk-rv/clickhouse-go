@@ -19,9 +19,10 @@ package resources
 
 import (
 	_ "embed"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
-	"gopkg.in/yaml.v3"
 	"strings"
+
+	"github.com/vk-rv/clickhouse-go/v2/lib/proto"
+	"gopkg.in/yaml.v3"
 )
 
 type Meta struct {

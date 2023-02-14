@@ -20,13 +20,14 @@ package std
 import (
 	"context"
 	"fmt"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func TestStdTemporaryTable(t *testing.T) {

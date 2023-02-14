@@ -20,8 +20,9 @@ package std
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"reflect"
+
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func DynamicScan() error {

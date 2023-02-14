@@ -20,15 +20,16 @@ package clickhouse
 import (
 	"context"
 	"fmt"
-	"github.com/pkg/errors"
 	"os"
 	"regexp"
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/pkg/errors"
+
+	"github.com/vk-rv/clickhouse-go/v2/lib/column"
+	"github.com/vk-rv/clickhouse-go/v2/lib/driver"
+	"github.com/vk-rv/clickhouse-go/v2/lib/proto"
 )
 
 var splitInsertRe = regexp.MustCompile(`(?i)\sVALUES\s*\(`)
