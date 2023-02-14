@@ -20,14 +20,15 @@ package std
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/require"
 	"net"
 	"net/url"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/require"
+	"github.com/vk-rv/clickhouse-go/v2"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
 
 	"github.com/stretchr/testify/assert"
 )

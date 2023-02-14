@@ -20,8 +20,9 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"time"
+
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func SpecialBind() error {

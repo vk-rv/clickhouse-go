@@ -20,9 +20,10 @@ package std
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests/std"
 	"time"
+
+	"github.com/vk-rv/clickhouse-go/v2"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests/std"
 )
 
 func BindParameters() error {

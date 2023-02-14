@@ -2,12 +2,13 @@ package issues
 
 import (
 	"context"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"testing"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func TestIssue548(t *testing.T) {

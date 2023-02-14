@@ -31,8 +31,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	ldriver "github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/vk-rv/clickhouse-go/v2/lib/column"
+	ldriver "github.com/vk-rv/clickhouse-go/v2/lib/driver"
 )
 
 var globalConnID int64
@@ -110,7 +110,7 @@ func (o *stdConnOpener) setClientInfoDefaults() {
 
 func init() {
 	var debugf = func(format string, v ...interface{}) {}
-	sql.Register("clickhouse", &stdDriver{debugf: debugf})
+	sql.Register("click", &stdDriver{debugf: debugf})
 }
 
 // isConnBrokenError returns true if the error class indicates that the

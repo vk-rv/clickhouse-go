@@ -19,8 +19,9 @@ package std
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
+
 	"github.com/google/uuid"
+	"github.com/vk-rv/clickhouse-go/v2"
 )
 
 func Sessions() error {

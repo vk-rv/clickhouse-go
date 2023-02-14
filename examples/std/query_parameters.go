@@ -19,8 +19,9 @@ package std
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/tests/std"
+
+	"github.com/vk-rv/clickhouse-go/v2"
+	"github.com/vk-rv/clickhouse-go/v2/tests/std"
 )
 
 func QueryWithParameters() error {

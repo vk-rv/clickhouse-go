@@ -23,15 +23,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/go-connections/nat"
-	"github.com/docker/go-units"
-	"github.com/google/uuid"
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
 	"math/rand"
 	"net"
 	"os"
@@ -41,6 +32,16 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/docker/docker/api/types/container"
+	"github.com/docker/go-connections/nat"
+	"github.com/docker/go-units"
+	"github.com/google/uuid"
+	"github.com/testcontainers/testcontainers-go"
+	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/vk-rv/clickhouse-go/v2"
+	"github.com/vk-rv/clickhouse-go/v2/lib/driver"
+	"github.com/vk-rv/clickhouse-go/v2/lib/proto"
 )
 
 var testUUID = uuid.NewString()[0:12]

@@ -20,8 +20,9 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
+
+	"github.com/vk-rv/clickhouse-go/v2"
+	clickhouse_tests "github.com/vk-rv/clickhouse-go/v2/tests"
 )
 
 func InsertReadJSON() error {

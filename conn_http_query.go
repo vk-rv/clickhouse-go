@@ -25,7 +25,7 @@ import (
 	"strings"
 
 	chproto "github.com/ClickHouse/ch-go/proto"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/vk-rv/clickhouse-go/v2/lib/proto"
 )
 
 // release is ignored, because http used by std with empty release function
